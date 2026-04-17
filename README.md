@@ -1,7 +1,7 @@
 <h1 align="center">Hey 👋, I'm <span style="color:#00b894;">Enoch</span></h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3000&pause=1000&color=00B894&center=true&vCenter=true&width=540&lines=Software+Engineer;COO+%40+Tekcify;Systems+Thinker+%7C+Builder;AI-Powered+Tools+%26+Scalable+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3000&pause=1000&color=00B894&center=true&vCenter=true&width=540&lines=COO+%40+Tekcify;Software+Engineer;Systems+Thinker+%7C+Builder;AI-Powered+Tools+%26+Scalable+Systems" />
 </p>
 
 <p align="center">
@@ -17,30 +17,47 @@
 
 ## 🧠 Who Am I
 
-- 💼 **COO @ [Tekcify](https://x.com/tekcify)** — building AI-first products that scale  
-- 🧩 I think in **systems**, not features — architecture-first, always  
-- 🤖 I ship **AI agents**, **smart contracts**, and **high-performance web apps**  
-- 🔧 Great at **debugging** complex systems and untangling hard logic  
-- 🌍 Based in Nigeria  
+- 💼 **COO @ [Tekcify](https://x.com/tekcify)** — shipped AI products used by **12K+ people across 120+ countries**  
+- 🛰 Backend engineer @ **Smartsend** (Tel Aviv) — production messaging at scale  
+- 🧩 I think in systems, not features — architecture first, always  
+- 🤖 I ship AI agents, smart contracts, and high-performance web apps  
+- 🔧 I'm the one teammates ping when something weird is happening in production  
 
 ---
 
 ## 🔥 What I'm Shipping
 
+### 🤖 Binx AI  
+WhatsApp-native AI assistant with voice, vision, and PDF chat  
+→ 12K+ users across 120+ countries  
+
+### 📄 PdfX  
+Chat with PDFs, generate study guides, run quizzes, Smart Recall sessions  
+→ Built for students and teams that live in documents  
+
 ### 🧬 MIDAS  
-AI feature producer agent — built for the Audiera Agent-Native Challenge  
+AI feature producer agent, built for the Audiera Agent-Native Challenge  
 
 ### 🏥 Overture  
-Multi-agent orchestra for modern healthcare systems  
+Multi-agent orchestration for modern healthcare workflows  
 
 ### ⚖️ Arbiter  
-Where AI intelligence meets on-chain smart contracts  
+AI agent that settles on-chain disputes. Two-model pipeline, Foundry-tested, real money  
 
 ### 🔀 AlgoFlow  
-AI chat app that converts algorithm descriptions into styled Mermaid flowcharts  
+AI chat app that turns algorithm descriptions into clean Mermaid flowcharts  
 
 ### 💼 Make The Link  
-Freelancing platform connecting talent to real opportunity  
+Freelancing platform where real talent meets real work  
+
+---
+
+## 🏆 Receipts
+
+- 🥇 **IEEE Xtreme 19.0** — 1st in Nigeria in a 24-hour algo competition; peaked 1st globally  
+- 🥇 **Zenith Bank Zecathon 5.0** — 1st of 449 innovators  
+- 🥇 **AI EduHack S2** (HackerX Africa) — 1st place  
+- 🥇 **Tezos EVM AI Hackathon 2026** — 1st place with Arbiter  
 
 ---
 
@@ -120,10 +137,10 @@ Freelancing platform connecting talent to real opportunity
 
 ## 🧩 Current Focus
 
-- 🤖 Autonomous AI agents that execute end-to-end  
-- ⛓️ AI × Blockchain — intelligent contracts, real utility  
-- 📐 System design that holds under pressure  
-- 🚀 Scaling products from zero to thousands of users  
+- 🤖 Autonomous agents that actually finish the job  
+- ⛓️ AI × Blockchain — intelligent contracts with real utility  
+- 📐 System design that holds when traffic hits  
+- 🚀 Taking products from zero to thousands of users without the wheels falling off  
 
 ---
 
