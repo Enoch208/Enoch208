@@ -55,7 +55,7 @@ Freelancing platform where real talent meets real work
 ## 🏆 Receipts
 
 - 🥇 **IEEE Xtreme 19.0** — 1st in Nigeria in a 24-hour algo competition; peaked 1st globally  
-- 🥇 **Zenith Bank Zecathon 5.0** — 1st of 449 innovators  
+- 🥇 **Zenith Bank Zecathon 5.0** — 2st of 449 innovators  
 - 🥇 **AI EduHack S2** (HackerX Africa) — 1st place  
 - 🥇 **Tezos EVM AI Hackathon 2026** — 1st place with Arbiter  
 
