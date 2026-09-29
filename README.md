@@ -4,7 +4,7 @@ Computer Engineering student at **Obafemi Awolowo University** and software engi
 
 I enjoy building systems that have to remain correct under real constraints, especially concurrency, payments, APIs, infrastructure and failure recovery.
 
-[Resume](https://github.com/Enoch208/Enoch208/blob/main/assets/Enoch-Idowu-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/enochid/) · [Email](mailto:enochidowu@student.oauife.edu.ng)
+[Resume](https://github.com/Enoch208/Enoch208/blob/main/Enoch-Idowu-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/enochid/) · [Email](mailto:enochidowu@student.oauife.edu.ng)
 
 ## About
 
