@@ -1,159 +1,224 @@
-<h1 align="center">Hey 👋, I'm <span style="color:#00b894;">Enoch</span></h1>
+# Enoch Idowu
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=22&duration=3000&pause=1000&color=00B894&center=true&vCenter=true&width=540&lines=COO+%40+Tekcify;Software+Engineer;Systems+Thinker+%7C+Builder;AI-Powered+Tools+%26+Scalable+Systems" />
-</p>
+Computer Engineering student at **Obafemi Awolowo University** and software engineer focused on **backend systems, distributed systems, reliability and applied AI**.
 
-<p align="center">
-  <a href="https://x.com/enochidx" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/enochid/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+I enjoy building systems that have to remain correct under real constraints, especially concurrency, payments, APIs, infrastructure and failure recovery.
 
----
+[Resume](./assets/Enoch-Idowu-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/enochid/) · [Email](mailto:enochidowu@student.oauife.edu.ng)
 
-## 🧠 Who Am I
+## About
 
-- 💼 **COO @ [Tekcify](https://x.com/tekcify)** — shipped AI products used by **12K+ people across 120+ countries**  
-- 🛰 Backend engineer @ **Smartsend** (Tel Aviv) — production messaging at scale  
-- 🧩 I think in systems, not features — architecture first, always  
-- 🤖 I ship AI agents, smart contracts, and high-performance web apps  
-- 🔧 I'm the one teammates ping when something weird is happening in production  
+I currently work across backend engineering and product development.
 
----
+At **SmartSend**, I contribute to production backend systems, APIs, messaging infrastructure, background workers, payment flows and reliability improvements.
 
-## 🔥 What I'm Shipping
+At **Tekcify**, I build and ship software products across backend, AI and web systems. Products I have worked on have reached more than **12,000 users across 120+ countries**.
 
-### 🤖 Binx AI  
-WhatsApp-native AI assistant with voice, vision, and PDF chat  
-→ 12K+ users across 120+ countries  
+I am particularly interested in:
 
-### 📄 PdfX  
-Chat with PDFs, generate study guides, run quizzes, Smart Recall sessions  
-→ Built for students and teams that live in documents  
+- Backend engineering
+- Distributed systems
+- Reliability and infrastructure
+- Developer tools
+- Payments and financial systems
+- Applied AI
+- Systems that need to remain correct under concurrency and failure
 
-### 🧬 MIDAS  
-AI feature producer agent, built for the Audiera Agent-Native Challenge  
+## Selected Engineering Projects
 
-### 🏥 Overture  
-Multi-agent orchestration for modern healthcare workflows  
+### [Reins](https://github.com/Enoch208/Reins)
 
-### ⚖️ Arbiter  
-AI agent that settles on-chain disputes. Two-model pipeline, Foundry-tested, real money  
+**Runtime financial controls for teams of autonomous AI agents.**
 
-### 🔀 AlgoFlow  
-AI chat app that turns algorithm descriptions into clean Mermaid flowcharts  
+Reins solves a concurrency problem where multiple autonomous agents can spend from the same job budget at the same time.
 
-### 💼 Make The Link  
-Freelancing platform where real talent meets real work  
+Instead of allowing agents to independently read a balance and make spending decisions, Reins atomically reserves budget before a payment is authorized.
 
----
+```text
+settled + reserved + unresolved <= approved job budget
+```
 
-## 🏆 Receipts
+Key engineering work:
 
-- 🥇 **IEEE Xtreme 19.0** — 1st in Nigeria in a 24-hour algo competition; peaked 1st globally  
-- 🥇 **Zenith Bank Zecathon 5.0** — 2st of 449 innovators  
-- 🥇 **AI EduHack S2** (HackerX Africa) — 1st place  
-- 🥇 **Tezos EVM AI Hackathon 2026** — 1st place with Arbiter  
+- Atomic PostgreSQL reservations to prevent concurrent overspending
+- Database-level enforcement of budget invariants
+- Idempotent operations to prevent duplicate payments
+- Reconciliation for uncertain payment outcomes
+- Shared budgets across delegated and replacement agents
+- Integer-based accounting for money
+- Policy enforcement before authorization
+- Real payment execution through OKX Agentic Wallet and X Layer
+- 149 automated tests, including concurrent PostgreSQL tests
+
+**Stack:** TypeScript, PostgreSQL, Hono, Zod, x402, OKX Agentic Wallet, X Layer
+
+[Repository](https://github.com/Enoch208/Reins) · [Live](https://usereins.xyz)
 
 ---
 
-## ⚙️ Tech Arsenal
+### [Erilog](https://github.com/Enoch208/Erilog)
 
-### 🖥 Languages
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" />
-</p>
+**Offline-first evidence infrastructure for physical aid distribution.**
 
-### 🎨 Frontend
-<p>
-  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-</p>
+Erilog is designed for environments where multiple field devices may record events while disconnected and later synchronize conflicting information.
 
-### ⚙️ Backend & APIs
-<p>
-  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/NestJS-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
-  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" />
-</p>
+The system preserves every recorded event, reconciles state deterministically and produces signed audit bundles that can be independently verified.
 
-### 🗄 Databases & ORMs
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" />
-</p>
+Key engineering work:
 
-### ☁️ DevOps & Cloud
-<p>
-  <img src="https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" />
-</p>
+- Offline-first event recording with IndexedDB
+- Append-only event model
+- Idempotent synchronization
+- Deterministic reconciliation independent of sync order
+- Conflict detection between disconnected devices
+- PostgreSQL-backed persistence
+- SHA-256 event hashing
+- Ed25519 signatures
+- Signed audit bundle generation
+- Independent tamper verification
+- Property tests for reconciliation guarantees
+- 153 automated tests
 
-### 🤖 AI & Web3
-<p>
-  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" />
-</p>
+The core design principle is simple: **conflicting real-world events should never silently disappear.**
+
+**Stack:** TypeScript, PostgreSQL, IndexedDB, Next.js, Ed25519, SHA-256, Docker
+
+[Repository](https://github.com/Enoch208/Erilog)
 
 ---
 
-## 📊 GitHub Analytics
+### [Clasp](https://github.com/Enoch208/Clasp)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Enoch208&show_icons=true&theme=calm&hide_border=true&include_all_commits=true&count_private=true" height="150" />
-  <img src="https://streak-stats.demolab.com?user=Enoch208&theme=calm&hide_border=true" height="150" />
-</p>
+**Scoped and revocable wallet sessions for applications and AI agents.**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Enoch208&theme=calm&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
-</p>
+Clasp allows applications to interact with Fiber wallets without receiving permanent wallet credentials.
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Enoch208&theme=algolia&no-frame=true&row=1&column=6" />
-</p>
+Applications receive limited sessions with explicit permissions, spending limits, expiration and revocation.
 
----
+Key engineering work:
 
-## 🧩 Current Focus
+- 10-step authorization and policy engine
+- Ed25519 signed sessions and operation requests
+- Replay protection and nonce enforcement
+- Atomic spend reservations
+- Scoped permissions and spending limits
+- Delegated permissions that can only become more restrictive
+- Cascade revocation
+- Keyless relay architecture
+- X25519 and XChaCha20 encrypted payloads
+- Real Fiber Network testnet payments
+- 122 automated tests
 
-- 🤖 Autonomous agents that actually finish the job  
-- ⛓️ AI × Blockchain — intelligent contracts with real utility  
-- 📐 System design that holds when traffic hits  
-- 🚀 Taking products from zero to thousands of users without the wheels falling off  
+Clasp won both its infrastructure category and the overall **Nervos Fiber Network Infrastructure Hackathon**.
 
----
+**Stack:** TypeScript, Node.js, Next.js, SQLite, Ed25519, X25519, Fiber Network
 
-## ⚡ Philosophy
+[Repository](https://github.com/Enoch208/Clasp) · [Live](https://useclasp.xyz)
 
-> Think in systems. Ship with speed. Build what matters.
+## More Projects
 
----
+### [Parallel](https://github.com/Enoch208/parallel)
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:0e75b6&height=120&section=footer"/>
-</p>
+Team conference planner that uses deterministic optimization to maximize coverage across overlapping sessions.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Enoch208&style=flat-square&color=00b894" />
-</p>
+The AI layer understands agendas and user intent, while deterministic code handles scheduling, constraints and feasibility.
+
+**Engineering:** constraint optimization, durable workflows, transactional state changes, revision tracking, email webhooks and property testing.
+
+### [Knot](https://github.com/Enoch208/knot)
+
+Agent marketplace built around verifiable identity, signed quotes, bounded permissions and traceable payment lifecycles.
+
+**Engineering:** signature verification, idempotency, state machines, content-addressed artifacts, settlement and refund paths, failure recovery and on-chain verification.
+
+### [AlgoFlow](https://github.com/Enoch208/algoflow)
+
+AI-assisted tool that converts natural-language algorithm descriptions into structured Mermaid flowcharts.
+
+**Stack:** TypeScript, Next.js, Gemini, Mermaid.js
+
+[Live](https://algoflowai.vercel.app)
+
+## Production Engineering
+
+Some of my strongest engineering work is in private production systems.
+
+### SmartSend
+
+Backend engineering for a production messaging platform.
+
+Areas I have worked on include:
+
+- Production APIs
+- Background workers
+- Messaging workflows
+- Payment and subscription flows
+- Media-processing pipelines
+- Reliability improvements
+- Production debugging and incident fixes
+
+### Binx AI
+
+WhatsApp-native AI assistant with voice, vision and document workflows.
+
+I worked on backend infrastructure and AI integrations required to support real users and production traffic.
+
+## Selected Awards
+
+- **Winner, GTBank Squad 3.0**  
+  1st place from approximately 1,600 participants
+
+- **1st Prize, AMD AI DevMaster 2026**  
+  Multimodal AI Track
+
+- **Overall Winner, Nervos Fiber Network Infrastructure Hackathon**  
+  Built Clasp, which also won its infrastructure category
+
+- **Winner, Tezos EVM AI Hackathon 2026**  
+  Built Arbiter
+
+- **Runner-up, Zenith Bank Zecathon 5.0**  
+  Selected from 449 innovators
+
+## Technical Skills
+
+**Languages**  
+TypeScript · JavaScript · Python · Solidity · C#
+
+**Backend**  
+Node.js · Express · FastAPI · REST APIs · WebSockets · background workers
+
+**Data**  
+PostgreSQL · Redis · MongoDB · MySQL · Firebase · SQLite
+
+**Infrastructure**  
+Docker · Linux · GitHub Actions · AWS · Cloudflare · Vercel
+
+**Frontend**  
+React · Next.js · Tailwind CSS
+
+**AI**  
+LLM APIs · AI agents · retrieval systems · TensorFlow · scikit-learn
+
+## Education
+
+**Obafemi Awolowo University, Ile-Ife**  
+Computer Engineering
+
+## Currently Interested In
+
+I am currently open to **software engineering internships and engineering opportunities** involving:
+
+- Backend systems
+- Distributed systems
+- Infrastructure
+- Reliability
+- Developer tools
+- Financial technology
+- AI infrastructure
+
+## Contact
+
+- **Email:** [enochidowu@student.oauife.edu.ng](mailto:enochidowu@student.oauife.edu.ng)
+- **LinkedIn:** [linkedin.com/in/enochid](https://www.linkedin.com/in/enochid/)
+- **GitHub:** [github.com/Enoch208](https://github.com/Enoch208)
